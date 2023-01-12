@@ -151,17 +151,17 @@ end
 
 %% Add freeze frame
 
-% Duplicate the last frame
-for jjj = (Nang+1):4*Nang
-    
-    % Add frame to video
-    writeVideo(v1,im2);
-    
-    % Monitor the run
-    if mod(jjj,10)==0
-        disp([jjj,4*Nang])
-    end
-end
+% % Duplicate the last frame
+% for jjj = (Nang+1):4*Nang
+%     
+%     % Add frame to video
+%     writeVideo(v1,im2);
+%     
+%     % Monitor the run
+%     if mod(jjj,10)==0
+%         disp([jjj,4*Nang])
+%     end
+% end
 
 close(v1);
 
